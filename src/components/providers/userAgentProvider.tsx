@@ -6,7 +6,7 @@ import {
   useMemo,
   useState,
   ReactNode,
-  useEffect,
+  //useEffect,
 } from "react";
 
 const CONTEXT_ERROR =
@@ -44,10 +44,10 @@ export const UserAgentProvider: React.FC<UserAgentProviderProps> = ({
     userAgentProp
   );
 
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    setUserAgent(window.navigator.userAgent);
-  }, []);
+  // useEffect(() => {
+  //   if (typeof window === "undefined") return;
+  //   setUserAgent(window.navigator.userAgent);
+  // }, []);
 
   const value = useMemo<UserAgentContextType>(
     () => ({
