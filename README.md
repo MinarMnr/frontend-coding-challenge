@@ -1,4 +1,4 @@
-Live Livk : https://frontend-coding-challenge-liard.vercel.app/
+Live Link : https://frontend-coding-challenge-liard.vercel.app/
 
 ## **Getting Started**
 
